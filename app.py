@@ -4,7 +4,7 @@ app = Flask(__name__, template_folder="templates")
 
 app.config['MYSQL_HOST'] = "localhost"
 app.config['MYSQL_USER'] = "root"
-app.config['MYSQL_PASSWORD'] = "Assassincreed4$"
+app.config['MYSQL_PASSWORD'] = "<enter your password>" #password
 app.config['MYSQL_DB'] = "medicine_stores"
 
 mysql = MySQL(app)
