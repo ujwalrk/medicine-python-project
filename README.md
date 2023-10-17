@@ -6,16 +6,6 @@ This project is a simple web application built using Flask, a Python web framewo
 
 ## Directory Structure
 
-Your project directory should have the following structure:
-
-your_project/
-app.py
-static/
-styles.css
-templates/
-index.html
-
-
 Here's what each of these files and directories does:
 
 - `app.py`: This is the main Python script that contains the Flask application. It handles the routing, form submissions, and database interactions.
