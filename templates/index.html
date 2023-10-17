@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Medicines Store</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Medicines Store</h1>
+        </header>
+        <main>
+            <form action="/" method="POST">
+                <input type="text" name="full_name" placeholder="Full Name">
+                <input type="number" name="mobile_no" placeholder="Mobile No">
+                <input type="number" name="age" placeholder="Age">
+                <input type="text" name="address" placeholder="Address">
+                <input type="file" name="prescription" placeholder="Prescription">
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 Medicines Store</p>
+        </footer>
+    </div>
+</body>
+</html>
